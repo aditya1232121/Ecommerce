@@ -1,0 +1,30 @@
+.productCard {
+    width: 250px; /* ✅ Optimize width */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .ratingContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: nowrap; /* ✅ Prevents line breaks */
+    white-space: nowrap;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .reviewCount {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .react-stars {
+    display: inline-block; /* ✅ Ensures inline display */
+    white-space: nowrap; /* ✅ Forces all stars to be in one row */
+  }
+  
